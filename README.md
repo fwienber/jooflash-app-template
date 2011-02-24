@@ -28,7 +28,15 @@ Now, just follow these simple steps:
 
    starts a local Web-server serving your project on port 8080.
 8. Then, open `http://localhost:8080` in your favorite browser.
-9. Because this blocks your command line, you need a new one, in which you can then rebuild the Web-app after any source code changes using
+9. Because starting Jetty blocks your command line, you need a new one, in which you can then rebuild the Web-app
+   after any source code changes using
 
    `mvn package`
 10. Reload in the browser. You may have to delete your browser cache for changes to appear.
+
+If you have to (or want to) **debug** your application, please read the
+[Jangaroo debugging introduction](http://www.jangaroo.net/tutorial/debugging/).
+**Note** that in contrast to the general Jangaroo "hello world" example, this projects puts the actual Jangaroo
+application into an iframe. So to enable the debug mode, open the HTML page usually loaded in the iframe directly:
+
+`http://localhost:8080/jooflash.html#joo.debug`
