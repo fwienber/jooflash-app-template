@@ -18,6 +18,7 @@ Now, just follow these simple steps:
    If this is the first time you ever invoke Maven, please be patient.
    Half the Java universe downloads, but you end up with a functioning "hello world" Jangaroo Flash Web-app!
    If not, pipe the output into a file (`mvn package > log.txt`) and send it to `frank[at]jangaroo.net`
+
 6. `start target\jooflash-app\index.html`
 
    opens the app in your default browser (hopefully a HTML5-enabled browser, IE8 or older do **not** work).
